@@ -1,9 +1,31 @@
+# Python
 __pycache__/
-*.pyc
-.DS_Store
-.venv/
-env/
-venv/
+*.py[cod]
+*.pyo
+*.so
 *.egg-info/
 dist/
 build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+.env/
+
+# IDE
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+#scratch/
