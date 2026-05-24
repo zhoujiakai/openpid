@@ -2,12 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 你的"电机"：一阶系统 G(s) = 1/(τs + 1)
-tau = 2.0  # 时间常数
+tau = 5.0  # 时间常数
 dt = 0.1  # 仿真步长
 T = 30  # 仿真时长
 
 # PID 参数
-Kp, Ki, Kd = 1.0, 0.1, 0.05
+Kp, Ki, Kd = 0.3, 0.1, 0.05
 
 setpoint = 1.0  # 目标值
 y = 0.0  # 当前输出
