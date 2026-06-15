@@ -12,13 +12,11 @@ build/
 .ruff_cache/
 
 # Virtual environments
-.venv/
-env/
-venv/
+python/venv/
 .env/
 
 # IDE
-.idea/
+python/.idea/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
@@ -28,4 +26,4 @@ venv/
 Thumbs.db
 
 # Project specific
-#scratch/
+#python/scratch/
