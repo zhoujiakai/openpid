@@ -27,3 +27,31 @@ Thumbs.db
 
 # Project specific
 #python/scratch/
+
+# Keil MDK
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.sct
+*.dep
+*.dbgconf
+*.htm
+*.build_log.htm
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+
+# Logs
+*.log
+
+# Editor backup files
+*~
+*.bak
+*.swp
+*.swo
