@@ -59,8 +59,8 @@ void EXTI0_IRQHandler(void)
 		if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_0) == Bit_RESET)
 		{
 			Encoder_Count ++;
-			EXTI_ClearITPendingBit(EXTI_Line0);
 		}
+		EXTI_ClearITPendingBit(EXTI_Line0);
 	}
 }
 
@@ -71,7 +71,7 @@ void EXTI1_IRQHandler(void)
 		if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_1) == Bit_RESET)
 		{
 			Encoder_Count --;
-			EXTI_ClearITPendingBit(EXTI_Line1);
 		}
+		EXTI_ClearITPendingBit(EXTI_Line1);
 	}
 }
